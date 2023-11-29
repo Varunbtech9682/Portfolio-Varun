@@ -1,2 +1,2 @@
-![Image Alt Text](files/preview.png)
+![Portfolio Display](files/preview.png)
 

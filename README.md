@@ -1,1 +1,2 @@
-![Preview Img](files/preview.png)
+![Image Alt Text](files/preview.png)
+

@@ -515,11 +515,11 @@ input[type="text"],[type="email"] {
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
-
   .profile-photo{
     position: relative;
     z-index: -1;
   }
+  
   .container{
     width: 350px;
   }

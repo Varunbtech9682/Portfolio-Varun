@@ -111,4 +111,14 @@ $(document).ready(function() {
   }
   
 
- 
+
+
+let menu_icon= document.querySelector(".menu_icon")
+let Links=document.querySelector(".navbar")
+
+menu_icon.addEventListener('click', ()=>{
+    Links.classList.toggle("nav-show");
+})
+
+
+

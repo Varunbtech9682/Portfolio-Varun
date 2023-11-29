@@ -515,6 +515,10 @@ input[type="text"],[type="email"] {
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
+
+  .profile-photo{
+    overflow:hidden;
+  }
   .container{
     width: 350px;
   }
@@ -522,11 +526,44 @@ input[type="text"],[type="email"] {
   .header .menu_icon {
     display: block;
   }
+
+  .navbar{
+    /* padding-top: 10px; */
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    background-color: #392d41c2;
+    margin-left: 80px;
+    width: 0%;
+    right: 0;
+    top: 70px;
+    height: 350px;
+    padding: 1rem 0;
+    transition: all 400ms;
+  }
+
   .header ul{
-    display: none;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: -50px;
+    /* display: none;  */
+  }
+
+  .header ul li{
+    padding-top: 20px;
   }
   .header i{
     color: #e5e5e5;
+    /* padding-top: 50px; */
+  }
+
+  .header-area{
+    padding: 0 2rem;
+    background-color: #392D41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
   }
 
   .profile-text{
@@ -563,3 +600,7 @@ input[type="text"],[type="email"] {
 
 }
 
+.nav-show{
+  width: 100%;
+  right: 0px;
+}

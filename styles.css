@@ -517,7 +517,8 @@ input[type="text"],[type="email"] {
 @media only screen and (max-width:767px){
 
   .profile-photo{
-    overflow:hidden;
+    position: relative;
+    z-index: -1;
   }
   .container{
     width: 350px;

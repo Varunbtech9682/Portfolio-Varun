@@ -517,7 +517,8 @@ input[type="text"],[type="email"] {
 @media only screen and (max-width:767px){
 
   .profile-photo{
-    overflow:hidden;
+    position: relative;
+    z-index: -1;
   }
   .container{
     width: 350px;
@@ -550,7 +551,7 @@ input[type="text"],[type="email"] {
   }
 
   .header ul li{
-    padding-top: 20px;
+    padding-top: 30px;
   }
   .header i{
     color: #e5e5e5;
@@ -563,7 +564,7 @@ input[type="text"],[type="email"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
+    height: 10vh;
   }
 
   .profile-text{

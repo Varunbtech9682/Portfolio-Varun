@@ -46,9 +46,9 @@ $(document).ready(function() {
 
     //Initial content revealing js
     ScrollReveal({
-      distance: "100px",
-      duration: 2000,
-      delay: 200
+      distance: "200px",
+      duration: 1500,
+      delay: 180
     });
   
     ScrollReveal().reveal(".header a, .profile-photo, .about-content, .education", {

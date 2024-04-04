@@ -220,11 +220,6 @@ body{
 .about-skills{
   flex-basis: 35%;
 }
-.about-skills ul{
-  margin-left: 100px;
-}
-
-
 .about-skills ul li{
   border-bottom: 1px dashed #ddd;
   padding-bottom: 10px;
@@ -515,7 +510,8 @@ input[type="text"],[type="email"] {
   .container{
     width: 750px;
   } 
-}
+}  
+
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
@@ -525,16 +521,7 @@ input[type="text"],[type="email"] {
     z-index: -1;
   }
   .container{
-    width: 760px;
-  }
-
-  .about-content ul{
-    width: 500px;
-    margin-right: 500px;
-  }
-
-  .about-skills{
-    margin-right: 200px;
+    width: 350px;
   }
 
   .header .menu_icon {
@@ -624,34 +611,6 @@ input[type="text"],[type="email"] {
   }
 
 }
-
-
-@media only screen and (max-width:550px){
-  .about-content ul{
-    /* width: 400px; */
-    margin-right: 500px;
-  }
-
-  .about-skills{
-    margin-right: 200px
-  }
-
-}
-
-@media only screen and (max-width:350px){
-  .about-content ul{
-    /* width: 400px; */
-    margin-right: 700px;
-  }
-
-  .about-skills{
-    margin-right: 200px
-  }
-
-}
-
-
-
 
 .certify{
   display: flex;
@@ -989,123 +948,4 @@ h6 {
 }
 .instagram__icon--saved path {
   stroke-width: 2;
-}
-
-
-
-
-
-/* ///.....Skill Bar....../// */
-
-.skills{
-  margin-left: 70px;
-}
-
-.skills-bar {
-  padding: 25px 30px;
-}
-
-.skills-bar .bar {
-  margin: 25px 0;
-}
-
-.skills-bar .bar .info span {
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.skills-bar .bar .info {
-  margin-bottom: 8px;
-  color: #f0f0e6;
-}
-
-.skills-bar .bar .progress-line {
-  position: relative;
-  height: 10px;
-  width: 550px;
-  background: #dd4e4e;
-  border-radius: 10px;
-  transform: scaleX(0);
-  transform-origin: left;
-  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-
-.bar .progress-line span {
-  position: absolute;
-  background: #3db725;
-  height: 100%;
-  border-radius: 10px;
-  transform: scaleX(0);
-  transform-origin: left;
-  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-
-@keyframes animate {
-  100% {
-    transform: scaleX(1);
-  }
-}
-
-.progress-line .django {
-  width: 95%;
-}
-.progress-line .html {
-  width: 90%;
-}
-.progress-line .css {
-  width: 85%;
-}
-.progress-line .bootstrap {
-  width: 75%;
-}
-.progress-line .javascript {
-  width: 65%;
-}
-.progress-line .c {
-  width: 80%;
-}
-
-.bar .progress-line span::before {
-  position: absolute;
-  content: "";
-  height: 0;
-  right: 0;
-  top: -12px;
-  width: 0;
-  border: 7px solid transparent;
-  border-bottom-width: 0px;
-  border-right-width: 0px;
-  border-top-style: #f0f0f0;
-  border-top-color: #f0f0f0;
-}
-
-.bar .progress-line span::after {
-  position: absolute;
-  right: 0;
-  top: -28px;
-  color: #07374a;
-  font-size: 12px;
-  font-weight: 700;
-  background: #f0f0f0;
-  padding: 1px 8px;
-  border-radius: 3px;
-}
-
-.progress-line .django::after {
-  content: "95%";
-}
-.progress-line .html::after {
-  content: "90%";
-}
-.progress-line .css::after {
-  content: "85%";
-}
-.progress-line .bootstrap::after {
-  content: "75%";
-}
-.progress-line .javascript::after {
-  content: "65%";
-}
-.progress-line .c::after {
-  content: "80%";
 }

@@ -643,7 +643,7 @@ input[type="text"],[type="email"] {
     justify-content: space-between;
   }
   .cert-img{
-    height: 220px;
+    height: 170px;
     width: 420px;
     transition: transform 0.3s ease;
   }
@@ -908,6 +908,12 @@ h6 {
   height: 100%;
 }
 
+
+
+
+
+
+/* 
 .instagram {
   --pading-horizontal: 16px;
   --border: 1px solid var(--primary);
@@ -987,4 +993,4 @@ h6 {
 }
 .instagram__icon--saved path {
   stroke-width: 2;
-}
+} */
